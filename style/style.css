@@ -234,3 +234,139 @@ nav > a > button {
   background-color: #fff;
   border: 1px solid black;
 }
+
+/* My ins pi ration */
+
+.inspiration {
+  margin: 0 100px;
+  text-align: center;
+  min-height: 600px;
+  /* line-height: 30px; */
+}
+.inspiration h3 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+.inspiration p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 80%;
+  margin: auto;
+}
+.video {
+  border: 2px solid black;
+  border-radius: 15px;
+  height: 500px;
+  margin-top: 20px;
+}
+.vid {
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+/* MY CURRENT TARGET */
+
+.current-target {
+  margin: 40px 100px;
+  min-height: 420px;
+  /* border: 1px solid red; */
+}
+.current-target h3 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+.current-target > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  padding-top: 10px;
+}
+.box-model {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding-top: 20px;
+  height: 300px;
+  margin: auto 20px;
+}
+.box-one {
+  /* border: 1px solid red; */
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 20px;
+}
+.box-one h4 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  padding: 15px 0;
+}
+.box-one p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.box-one a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+}
+.box-two {
+  /* border: 1px solid blue; */
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 20px;
+}
+.box-two h4 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  padding: 15px 0;
+}
+.box-two p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.box-two a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+}
+.box-three {
+  /* border: 1px solid orange; */
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 20px;
+}
+.box-three h4 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  padding: 15px 0;
+}
+.box-three p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.box-three a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+}
