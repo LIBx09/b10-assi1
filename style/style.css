@@ -299,13 +299,13 @@ nav > a > button {
   gap: 15px;
   padding-top: 20px;
   height: 300px;
-  margin: auto 20px;
+  /* margin: auto 20px; */
 }
 .box-one {
   /* border: 1px solid red; */
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
-  padding: 20px;
+  padding: 30px;
 }
 .box-one h4 {
   color: rgb(13, 19, 33);
@@ -328,7 +328,7 @@ nav > a > button {
   /* border: 1px solid blue; */
   border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
-  padding: 20px;
+  padding: 30px;
 }
 .box-two h4 {
   color: rgb(13, 19, 33);
@@ -351,7 +351,7 @@ nav > a > button {
   /* border: 1px solid orange; */
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
-  padding: 20px;
+  padding: 30px;
 }
 .box-three h4 {
   color: rgb(13, 19, 33);
@@ -369,4 +369,54 @@ nav > a > button {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 700;
+}
+
+/* SEARCH ENGINE */
+.search {
+  margin: 0 100px;
+  height: 320px;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("/assets/handshake.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.search-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+}
+.search-content h4 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+}
+.search-content p {
+  color: rgb(180, 168, 168);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+
+.input input {
+  padding: 7px 25px;
+  border-radius: 8px;
+  border: none;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+#footer {
+  background-color: rgb(226, 223, 223);
+  height: 70px;
+  padding: 40px 120px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
